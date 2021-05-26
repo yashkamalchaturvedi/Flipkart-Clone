@@ -1,0 +1,87 @@
+@import url("https://fonts.googleapis.com/css2?family=Odibee+Sans&display=swap");
+:root {
+  --main-bg-color: #216ee1;
+}
+* {
+  margin: 0;
+  padding: 0;
+}
+header {
+  background-color: var(--main-bg-color);
+  font-family: "Odibee Sans", cursive;
+}
+nav {
+  display: flex;
+}
+.logo {
+  display: flex;
+  align-items: center;
+}
+.logo img {
+  width: 88px;
+  padding: 0 25px;
+}
+nav ul {
+  height: 58px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+nav ul li {
+  list-style: none;
+  padding: 0 23px;
+}
+nav ul li a {
+  color: white;
+  text-decoration: none;
+}
+nav ul li a:hover {
+  font-weight: bolder;
+}
+.search {
+  display: flex;
+  align-items: center;
+}
+.search input {
+  width: 30vw;
+  height: 27px;
+  border-radius: 12px;
+  margin: 0 16px 0 56px;
+  padding: 0 12px;
+}
+.search button {
+  font-family: "Odibee Sans", cursive;
+  font-weight: 900;
+}
+.slider {
+  margin: 12px auto;
+  width: 80vw;
+  overflow: hidden;
+}
+.card {
+  max-width: 91vw;
+  margin: 37px auto;
+  font-family: "Odibee Sans", cursive;
+}
+.cards {
+  display: flex;
+  overflow: hidden;
+}
+.card-item {
+  display: inline-flex;
+  justify-content: center;
+  flex-direction: column;
+  margin: 0 15px;
+}
+.card h2 {
+  font-family: "Odibee Sans", cursive;
+}
+.container {
+  min-height: calc(100vh - 58px - 12vh);
+}
+footer {
+  height: 12vh;
+  background-color: var(--main-bg-color);
+  color: white;
+  font-family: "Odibee Sans", cursive;
+}
